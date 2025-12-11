@@ -1,0 +1,137 @@
+/* .timeline {
+  margin-bottom: 4em;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.date-content-wrapper {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  align-items: center;
+}
+.date-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: center;
+}
+.timeline-heading {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.timeline-desc {
+  margin-top: 1em;
+  font-size: 1em;
+  color: #c4c4c4;
+}
+.middle-border {
+  width: 5px;
+  background-color: var(--fc-blue);
+  height: 110px;
+  display: block;
+}
+.starting-border {
+  display: none;
+  width: 3px;
+  background-color: var(--fc-blue);
+  height: 200px;
+}
+@media screen and (max-width: 800px) {
+  .date-content-wrapper {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 30px;
+  }
+  .middle-border {
+    display: none;
+  }
+  .date-wrapper {
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 2rem;
+    justify-content: flex-start;
+  }
+
+  .content {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .starting-border {
+    display: block;
+  }
+  .month {
+    margin-right: 10px;
+  }
+  .test {
+    margin-left: 20px;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .date-wrapper {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  .timeline-heading {
+    font-size: 1.3rem;
+  }
+  .content {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .time {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .date-wrapper {
+    font-size: 1.5rem;
+  }
+  .timeline-heading {
+    font-size: 1rem;
+  }
+
+  .content {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 350px) {
+  .date-wrapper {
+    font-size: 1.3rem;
+  }
+  .timeline-heading {
+    font-size: 1rem;
+  }
+} */

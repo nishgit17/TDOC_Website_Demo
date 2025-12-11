@@ -1,0 +1,162 @@
+.ComingSoon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+}
+
+
+
+.WrapSponsor{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}
+.SponsorHeadDiv{
+  display: flex;
+}
+.Sponsor {
+  font-size: 3.8rem;
+  margin-top: 150px;
+  text-align: center;
+  font-weight: 700;
+  /* background-image: url(../assets/Images/timeline.svg) !important; */
+  background: linear-gradient(90deg, #ff1493 0%, #9d4edd 50%, #ff66cc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(0 0 20px rgba(255, 20, 147, 0.2))
+          drop-shadow(0 0 35px rgba(255, 20, 147, 0.15))
+          drop-shadow(0 0 50px rgba(255, 20, 147, 0.08));
+}
+
+
+
+.com-name {
+  font-size: 1.5rem;
+}
+
+.sub {
+  color: rgb(205, 202, 202);
+  font-size: large;
+}
+
+.SponsorDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px auto;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.SponsorDetails {
+  margin: 40px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+}
+
+.head {
+  text-align: center;
+  height: 40vh;
+  margin-top: 5rem;
+}
+
+.SponsorDetailsWrapper {
+  background: var(--background-color);
+  padding: 20px auto;
+  border-radius: 25px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.SponsorDetails img {
+  width: auto;
+  height: 7em;
+  padding-top: 20px;
+  margin-bottom: 1rem;
+}
+
+.SponsorDetails h2 {
+  line-height: 1.75rem;
+  margin-top: 20px;
+}
+
+.SponsorDetails a {
+  z-index: 20;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: var(--text-color);
+}
+
+.SponsorDetails a:hover {
+  color: var(--primary-blue-color);
+}
+
+.SponsorDetails h4 {
+  color: var(--primary-blue-color);
+}
+
+@media screen and (max-width: 900px) {
+  .SponsorDiv {
+    height: 100%;
+  }
+
+  .techbairn img {
+    width: 220px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Sponsor{
+    font-size: 3.2rem;
+  }
+  .code {
+    min-width: 260px !important;
+    height: 100%;
+  }
+
+  .SponsorDetails img {
+    width: auto;
+    height: 5em;
+    padding-top: 10px;
+  }
+
+  .SponsorDetails {
+    margin: 10px;
+  }
+
+  .code h4 {
+    padding-bottom: 15px !important;
+  }
+
+  .Sponsors h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Sponsors {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,800");
+
+html {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 46%;
+  top: 35%;
+  background-image: url("https://media.giphy.com/media/STroE7bTBLTzxQUrZc/giphy.gif");
+  border-radius: 50%;
+  z-index: 9999;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -10px 0 0 -36px;
+  background-position: unset;
+  background-size: contain;
+}
+
+#texty {
+  color: white;
+}
+
+.question,
+.answer {
+  border: 1px solid rgba(255, 20, 147, 0.2);
+  border-radius: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  box-shadow: 0 0 15px rgba(255, 20, 147, 0.1);
+}
+
+.q-text,
+.a-text {
+  color: white;
+}
+
+
+
+
+.FAQ {
+  font-size: 4rem;
+  /* Use the desired font size */
+  margin-top: 150px;
+  text-align: center;
+  font-weight: 700;
+  /* background-image: url("../assets/Images/timeline.svg") !important; */
+  background: linear-gradient(120deg, #ff1493 0%, #9d4edd 50%, #ff66cc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(0 0 15px rgba(255, 20, 147, 0.2))
+          drop-shadow(0 0 30px rgba(255, 20, 147, 0.12));
+}
+
+
+
+
+
+
+
+
+
+.question {
+  background-color: rgba(45, 26, 61, 0.4);
+  height: auto;
+  display: flex;
+  border-left: solid 5px #ff1493;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  box-shadow: 0 0 15px rgba(255, 20, 147, 0.12),
+              0 0 30px rgba(255, 20, 147, 0.08);
+}
+
+.answer {
+  background-color: rgba(45, 26, 61, 0.3);
+  color: #fff;
+  height: auto;
+  display: flex;
+  border-left: solid 5px #ff1493;
+  margin-bottom: 20px !important;
+  padding-bottom: 20px !important;
+  box-shadow: 0 0 15px rgba(255, 20, 147, 0.12),
+              0 0 25px rgba(255, 20, 147, 0.05);
+}
+
+.q-span {
+  font-size: 5vh;
+  /* color: #0095c2 !important; */
+}
+
+.q-text {
+  color: #ffffff;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.a-span {
+  font-size: 5vh;
+  color: #ff1493;
+  text-shadow: 0 0 10px rgba(255, 20, 147, 0.2);
+}
+
+.a-text {
+  font-size: 2vh;
+  color: rgb(215, 214, 214);
+}
+
+.col-1,
+.col-11 {
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .a-span {
+    font-size: 6vh;
+  }
+}
+
+@media only screen and (max-width: 776px) and (min-width: 568px) {
+
+  .a-span,
+  .q-span {
+    margin-left: -1% !important;
+  }
+
+  .a-text,
+  .q-text {
+    margin-left: 1% !important;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .questions-collapse {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .FAQ{
+    font-size: 3.6rem;
+  }
+  #status {
+    width: 150px;
+    height: 150px;
+    left: 45%;
+    top: 40%;
+  }
+
+  #questions {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2em !important;
+  }
+
+  #more-button {
+    width: 100%;
+    height: auto;
+    border-style: none;
+    background: #ff1493;
+    color: #fffaf0;
+    font-size: 20px;
+    cursor: pointer;
+    border-left: solid 5px var(--fc-blue);
+    box-shadow: 0 0 15px rgba(255, 20, 147, 0.12);
+  }
+
+  #grow0,
+  #grow1,
+  #grow2,
+  #grow3,
+  #grow4,
+  #grow5,
+  #grow6 {
+    background-color: rgba(45, 26, 61, 0.8);
+    border-left: solid 5px #ff1493;
+    color: #e0f7ff;
+    font-weight: bold;
+    font-size: 2.5vh;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 0;
+    overflow-y: scroll;
+    box-shadow: 0 0 15px rgba(255, 20, 147, 0.1);
+    /* overflow: hidden; */
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .FAQ{
+    font-size: 3rem;
+  }
+
+  #grow0,
+  #grow1,
+  #grow2,
+  #grow3,
+  #grow4,
+  #grow5,
+  #grow6 {
+    background-color: var(--primary-yellow-color);
+    border-left: solid 5px var(--card-blue-color);
+    color: #a8a7a7;
+    font-weight: 500;
+    font-size: 2vh;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 0;
+    overflow-y: scroll;
+  }
+}
+
+.q-span {
+  color: #ff5e5e; /* Soft red */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.q-span:hover {
+  color: #ff7f7f; /* Slightly lighter red on hover */
+}
